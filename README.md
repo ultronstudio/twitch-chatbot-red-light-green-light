@@ -39,3 +39,7 @@ Modify settings like timeout duration and game phases in the beginning of the `i
 
 This project is open-source and available under the **Apache 2.0** license.
 *(see [LICENSE file](LICENSE.md))*
+
+## Preview (*in Czech language*)
+
+<img src="/assets/screenshot.png" alt="Screenshot Preview" style="width: auto; height: 100%" />
