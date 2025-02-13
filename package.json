@@ -1,0 +1,21 @@
+{
+  "name": "red-light-green-light-twitch-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["twitch", "squid game", "red light", "green light", "timeout", "chat", "chat bot", "game"],
+  "author": "Petr Vurm <petrvurm.cz>",
+  "license": "Apache-2.0",
+  "description": "Twitch Chat game that allows a Twitch streamer to play a game from the popular Netflix series Squid Game in a chat with viewers.",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "tmi.js": "^1.8.5"
+  }
+}
