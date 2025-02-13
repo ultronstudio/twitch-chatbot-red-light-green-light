@@ -1,10 +1,10 @@
-<div style="text-align: center">
+<center>
     <img src="/assets/squid-game-logo.png" style="width: auto; height: 150px;" alt="Squid Game" />
-</div>
+</center>
 
 # Twitch Game: Red Light, Green Light
 
-This script allows a Twitch streamer to play a game from the popular Netflix series Squid Game in a chat with viewers.
+Allows a Twitch streamer to play a game from the popular Netflix series Squid Game in a chat with viewers.
 
 ## Players' Rules
 
