@@ -109,8 +109,8 @@ async function checkPlayerMessage(username, channel) {
             method: 'GET',
             url: 'https://api.twitch.tv/helix/users?login=' + username,
             headers: {
-                'Authorization': 'Bearer 20qfhksq0fo7blmox4ibfed2qglda4',
-                'Client-Id': 'gp762nuuoqcoxypju8c569th9wz7q5'
+                'Authorization': `Bearer ${process.env.CLIENT_SECRET}`,
+                'Client-Id': process.env.CLIENT_ID
             },
         };
 
@@ -131,8 +131,8 @@ async function checkPlayerMessage(username, channel) {
             method: 'POST',
             url: 'https://api.twitch.tv/helix/moderation/bans?broadcaster_id=635844208&moderator_id=635844208',
             headers: {
-                'Authorization': `Bearer 20qfhksq0fo7blmox4ibfed2qglda4`,
-                'Client-Id': 'gp762nuuoqcoxypju8c569th9wz7q5',
+                'Authorization': `Bearer ${process.env.CLIENT_SECRET}`,
+                'Client-Id': process.env.CLIENT_ID,
                 'Content-Type': 'application/json'
             },
             data: {
